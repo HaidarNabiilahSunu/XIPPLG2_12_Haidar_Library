@@ -12,5 +12,7 @@ use App\Http\Controllers\ReviewController;
 Route::apiResource('categories', CategoryController::class);
 Route::apiResource('books', BookController::class);
 Route::apiResource('users', UserController::class);
+Route::apiResource('loans', LoanController::class);
+
 
 // Route contoh untuk mengambil user yang sudah autentikasi menggunakan Sanctum
